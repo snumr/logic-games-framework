@@ -35,13 +35,13 @@ import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 import kotlin.util.measureTimeMillis
 import org.mumidol.logicgames.examples.Gomoku
-import thirdparty.gomoku.SmartGomokuPlayer
 import org.mumidol.logicgames.MultiPlayerGame
 import org.mumidol.logicgames.IllegalTurnException
 import org.mumidol.logicgames.examples.DummyGomokuPlayer
-import logicgames.ui.play
-import logicgames.ui.GameObserver
-import logicgames.ui.AsyncHumanPlayer
+import org.mumidol.logicgames.ui.play
+import org.mumidol.logicgames.examples.SmartGomokuPlayer
+import org.mumidol.logicgames.ui.GameObserver
+import org.mumidol.logicgames.ui.AsyncHumanPlayer
 
 fun main(args: Array<String>) {
     Application.launch(javaClass<GomokuRunner>(), args.joinToString(separator = " "))

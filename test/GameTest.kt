@@ -25,8 +25,8 @@ import org.mumidol.logicgames.examples.SmartTicTacToePlayer
 import org.mumidol.logicgames.examples.Gomoku
 import org.mumidol.logicgames.examples.generateTicTacToeTurns
 import org.mumidol.logicgames.examples.generateGomokuTurns
-import thirdparty.gomoku.GomokuEvaluator
-import thirdparty.gomoku.WIN_POSITION
+import org.mumidol.logicgames.examples.GomokuEvaluator
+import org.mumidol.logicgames.examples.WIN_POSITION
 
 /**
  * Created on 02.11.2014.

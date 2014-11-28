@@ -5,7 +5,7 @@
  *
  */
 
-package thirdparty.gomoku
+package org.mumidol.logicgames.examples
 
 import org.mumidol.logicgames.examples.Cell
 import org.mumidol.logicgames.examples.range
@@ -28,8 +28,8 @@ import org.mumidol.logicgames.Player
 import org.mumidol.logicgames.Game
 import org.mumidol.logicgames.alphaBetaSearch
 import org.mumidol.logicgames.examples.generateGomokuTurns
-import thirdparty.gomoku.GomokuEvaluator.FeaturedChains
 import java.util.Random
+import org.mumidol.logicgames.examples.GomokuEvaluator.FeaturedChains
 
 
 /**

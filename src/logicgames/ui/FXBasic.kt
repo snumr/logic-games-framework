@@ -5,7 +5,7 @@
  *
  */
 
-package logicgames.ui
+package org.mumidol.logicgames.ui
 
 import javafx.application.Application
 import java.util.concurrent.Executors
